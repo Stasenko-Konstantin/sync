@@ -1,4 +1,12 @@
 module Main where
 
+import System.Environment
+
+help :: String
+help = "help"
+
 main :: IO ()
-main = putStrLn "Hello, Haskell!"
+main = getArgs >>= parseArgs
+
+parseArgs :: [String] -> IO ()
+parseArgs _ = putStrLn help
