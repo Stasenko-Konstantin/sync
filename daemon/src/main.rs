@@ -1,3 +1,9 @@
+use std::env::args;
+use tokio;
+
 fn main() {
-    println!("Hello, world!");
+    let args = args();
+    for a in args {
+        println!("{}", a);
+    }
 }

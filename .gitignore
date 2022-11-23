@@ -1,5 +1,3 @@
 .idea
-cmd/.stack-work
-cmd/target
 daemon/target
 mobile/sync.apk
