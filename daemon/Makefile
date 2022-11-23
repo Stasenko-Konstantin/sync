@@ -1,2 +1,2 @@
 install-daemon:
-	cargo run --release
+	cargo install --path .
