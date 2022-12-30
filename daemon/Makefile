@@ -1,2 +1,2 @@
 install-daemon:
-	cargo install --path .
+	stack install

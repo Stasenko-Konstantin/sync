@@ -4,4 +4,4 @@ install-daemon:
 	cd daemon && make
 
 make-mobile:
-	cd mobile && make build
+	cd mobile && make release
